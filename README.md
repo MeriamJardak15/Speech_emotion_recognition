@@ -12,11 +12,12 @@ This project focuses on building a **Speech Emotion Recognition (SER)** system u
 ## 📁 Dataset
 
 - **Source**: [TESS Toronto emotional speech set](https://tspace.library.utoronto.ca/handle/1807/24487)
+- Database : https://drive.google.com/drive/folders/1bc_0XatymeE5Gt4O-NwQQgt_FlNID0dr?usp=sharing
 - It includes recordings of speech with emotions like *happy*, *sad*, *angry*, *fear*, *disgust*, *neutral*, etc.
 
 ## 🛠️ Project Structure
 
-- **run.py** – The main script that performs the entire workflow: data loading, visualization, feature extraction, model training, and evaluation.
+- **Run.ipynb** – The main script that performs the entire workflow: data loading, visualization, feature extraction, model training, and evaluation.
 
 ## 🔍 Exploratory Data Analysis
 
@@ -47,11 +48,3 @@ This project focuses on building a **Speech Emotion Recognition (SER)** system u
 - `keras` (TensorFlow backend) for deep learning model
 - Google Colab and Google Drive for development and data handling
 
-## 🚀 How to Run
-
-```bash
-# Install dependencies
-pip install numpy pandas matplotlib seaborn librosa tensorflow
-
-# Run the main script
-python run.py
